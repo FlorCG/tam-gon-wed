@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+
+
+body {
+	background-image: url("../assets/bg0.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.background00 img {
+	width: 100%;
+	height:100% 
+}
+
+.background00 #a00 {
+	  font-family: 'Satisfy', cursive;
+  color: white;
+font-size:7vw;
+  position: absolute;
+   top: -2%;
+  left: 50%;
+  text-shadow: 2px 2px 2px #212121;
+  transform: translate(-50%, -50%);
+}
+
+.background00 #a01 {
+	 position: absolute;
+  top: 65%;
+   line-height: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Satisfy', cursive;
+  color: white;
+  text-shadow: 2px 2px 2px #212121;
+font-size:6vw;
+}
+
+.seccioncontador{
+	background-color: black;
+	height: 150px;
+}
+
+.background00 #a02  {
+	font-family: 'Satisfy', cursive;
+  color: white;
+font-size:3vw;
+  position: absolute;
+   top: 85%;
+  left: 50%;
+  text-shadow: 2px 2px 2px #212121;
+  transform: translate(-50%, -50%);
+}
+
+.contenedor {
+	 position: relative;
+}
+
+
+.time-label {
+				font-weight: bold;
+				font-size: 130%;
+			}
+			.time_circles {
+				position: relative;
+				width: 100%;
+				height: 100%;
+			}
+			.time_circles > div {
+				position: absolute;
+				text-align: center;
+			}
+			.time_circles > div > h4 {
+				cursor: default;
+				margin: 0px;
+				padding: 0px;
+				text-align: center;
+				text-transform: uppercase;
+				font-family: 'Century Gothic', Arial;
+			}
+			.time_circles > div > span {
+				cursor: default;
+				display: block;
+				width: 100%;
+				text-align: center;
+				font-family: 'Century Gothic', Arial;
+				font-size: 300%;
+				margin-top: 0.4em;
+				font-weight: bold;
+			}
+
+
+#dateCountdown {
+margin: 0 auto;
+    width: 50%;
+}
+
+
+.imgizq img {
+	width: 100%;
+	border:8px solid #fff;
+-webkit-box-shadow: 10px 10px 33px -2px rgba(0,0,0,0.63);
+-moz-box-shadow: 10px 10px 33px -2px rgba(0,0,0,0.63);
+box-shadow: 10px 10px 33px -2px rgba(0,0,0,0.63);
+}
+
+h3.titulo-seccion {
+font-family: 'Satisfy', cursive;
+}
+
+p#lugar {
+	font-weight: bolder;
+	font-size: 1.2em;
+}
+
+.textder span {
+	font-size: 1.2em;
+}
+
+#botonmapa {
+
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contenedorlugares {
+	margin-top: 5%;
+	  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenedorregalo {
+	display: block;
+    text-align: center;
+    background-color: black;
+    height: 200px;
+ display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10%;
+    margin-bottom:  10%;
+
+}
+
+.contenedorinvita {
+	display: block;
+    text-align: center;
+    height: 200px;
+   
+}
+
+.contenedorreg {
+	
+}
+
+
+.textgift span {
+color: white;
+font-size: 1.2em;
+	margin-top: 2%;
+}
+
+.textgift, .textinvita {
+	
+}
+
+.botondatos {
+	margin-top: 2%;
+}
+
+.botonregalo{
+	margin-top: 4%;
+}
+
+.textinvita h2 {
+	font-family: 'Satisfy', cursive;
+}
