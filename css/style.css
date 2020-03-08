@@ -15,9 +15,9 @@ body {
 .background00 #a00 {
 	  font-family: 'Satisfy', cursive;
   color: white;
-font-size:7vw;
+font-size:9vw;
   position: absolute;
-   top: -2%;
+   top: -5%;
   left: 50%;
   text-shadow: 2px 2px 2px #212121;
   transform: translate(-50%, -50%);
@@ -25,14 +25,14 @@ font-size:7vw;
 
 .background00 #a01 {
 	 position: absolute;
-  top: 65%;
+  top: 62%;
    line-height: 150%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Satisfy', cursive;
   color: white;
   text-shadow: 2px 2px 2px #212121;
-font-size:6vw;
+font-size:8vw;
 }
 
 .seccioncontador{
@@ -40,10 +40,14 @@ font-size:6vw;
 	height: 150px;
 }
 
+.rowdatos {
+	margin-bottom: 0px !important;
+}
+
 .background00 #a02  {
 	font-family: 'Satisfy', cursive;
   color: white;
-font-size:3vw;
+font-size:4vw;
   position: absolute;
    top: 85%;
   left: 50%;
@@ -110,6 +114,8 @@ font-family: 'Satisfy', cursive;
 p#lugar {
 	font-weight: bolder;
 	font-size: 1.2em;
+	margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .textder span {
@@ -159,8 +165,10 @@ font-size: 1.2em;
 	margin-top: 2%;
 }
 
-.textgift, .textinvita {
-	
+.textgift {
+	width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
 .botondatos {
@@ -173,4 +181,22 @@ font-size: 1.2em;
 
 .textinvita h2 {
 	font-family: 'Satisfy', cursive;
+}
+
+
+@media (min-width: 993px) and (max-width: 1240px){
+	h3.titulo-seccion {
+
+				margin-bottom: 0px;
+				margin-top: 2%;
+	}
+	p#lugar {
+		margin: 0;
+    margin-top: 1%;
+	}
+
+	p.dir {
+		margin-top: 1%;
+    margin-bottom: 1%;
+	}
 }
