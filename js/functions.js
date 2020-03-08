@@ -2,6 +2,11 @@
     $('#modal1').modal();
   });
 
+    $(document).ready(function(){
+    $('#modal2').modal();
+  });
+
+
 
 $("#dateCountdown").TimeCircles({
     "animation": "ticks",
