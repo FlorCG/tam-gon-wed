@@ -6,6 +6,9 @@
     $('#modal2').modal();
   });
 
+    $(document).ready(function(){
+    $('#modal3').modal();
+  });
 
 
  var divs = $(".flexFont");
