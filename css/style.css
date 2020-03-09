@@ -5,7 +5,7 @@
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 body {
-	
+
 	background-image: url("../assets/bg0.jpg");
 	  /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -363,6 +363,10 @@ font-size: 1.2em;
 		width: 99%;
 	}
 
+	#content {
+		    margin-top: 5px;
+	}
+
 	.slider h3 {
 	
 	font-size:5.2rem;
@@ -371,12 +375,12 @@ font-size: 1.2em;
 
 p#a01 {
 	font-size: 5rem;
-		margin-top: 78%;
+		margin-top: 77%;
 }
 
 p#fecha{
 	font-size: 5vw;
-	margin-top: -20%;
+	margin-top: -24%;
 		
 }
 
