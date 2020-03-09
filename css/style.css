@@ -14,6 +14,37 @@ body {
 .background00 img {
 	width: 100%;
 	height:100% 
+
+}
+
+
+.slider h3 {
+	font-family: 'Cookie', cursive;
+	font-size:5.92rem;
+	margin-top: -5%;
+	 text-shadow: 2px 2px 2px #212121;
+	 opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s
+}
+
+
+p#fecha{
+	font-size: 5vw;
+		font-family: 'Cookie', cursive;
+		text-shadow: 2px 2px 2px #212121;
+		margin-top: -17%;
+}
+
+p#a01 {
+	font-size: 8vw;
+		font-family: 'Cookie', cursive;
+		text-shadow: 2px 2px 2px #212121;
+		margin-top: 250px;
 }
 
 .background00 #a00 {
@@ -22,7 +53,7 @@ body {
 font-size:9vw;
   position: absolute;
    top: 10%;
-  left: 50%;
+  left: 47%;
   text-shadow: 2px 2px 2px #212121;
   transform: translate(-50%, -50%);
   opacity:0;  /* make things invisible upon start */
@@ -58,6 +89,21 @@ opacity:0;  /* make things invisible upon start */
 	height: 160px;
 
 }
+
+.slider {
+	height: auto !important;
+	position: none !important;
+}
+
+#content {
+position: relative;
+top : 100vh;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: rgba(255, 0, 0, 0.0);;
+}
+
 
 .conta {
 	  opacity:0;  /* make things invisible upon start */
@@ -277,6 +323,23 @@ font-size: 1.2em;
 		width: 99%;
 	}
 
+	.slider h3 {
+	
+	font-size:5.2rem;
+}
+
+p#a01 {
+	font-size: 5rem;
+		
+}
+
+p#fecha{
+	font-size: 5vw;
+	margin-top: -20%;
+		
+}
+
+
 }
 
 
@@ -286,6 +349,28 @@ font-size: 1.2em;
 	width: 70% !important;
 }
 
+}
+
+
+@media (max-width: 500px){
+	p#fecha{
+	font-size: 5vw;
+	margin-top: -25%;
+		
+}
+}
+
+
+@media (max-width: 440px){
+		.slider h3 {
+	
+	font-size:4.8rem;
+}
+	p#fecha{
+	font-size: 2rem;
+	margin-top: -25%;
+		
+}
 }
 
 @media (max-width: 400px){
@@ -301,6 +386,16 @@ font-size: 1.2em;
 		font-size: 5vw;
 		top: 84%;
 	}
+
+		.slider h3 {
+	
+	font-size:4rem;
+}
+
+p#a01 {
+	font-size: 4rem;
+		
+}
 
 
 .botondatos{
@@ -336,6 +431,15 @@ font-size: 1.2em;
 
 }
 
+
+@media (max-width: 330px){
+
+.slider h3 {
+	
+	font-size:3.2rem;
+}
+}
+
 @media (max-width: 300px){
 	#botonmapa {
     width: 70%;
@@ -354,13 +458,36 @@ font-size: 1.2em;
   font-size: 15px !important;
 }
 
+p#a01 {
+	font-size: 3rem;
+		
+}
+
 	#countdown .tr-text {
   font-size: 8px !important;
 }
-
-
-
 }
+
+@media (max-width: 280px){
+
+.slider h3 {
+	
+	font-size: 2.2em;
+}
+
+p#a01 {
+	font-size: 3rem;
+	margin-top: 280px;
+		
+}
+	p#fecha{
+	font-size: 1.5rem;
+	margin-top: -15%;
+		
+}
+}
+
+
 
 iframe {
 	width: 100%;
