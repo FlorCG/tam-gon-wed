@@ -5,6 +5,7 @@
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 body {
+	
 	background-image: url("../assets/bg0.jpg");
 	  /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -36,7 +37,7 @@ body {
 .slider h3 {
 	font-family: 'Cookie', cursive;
 	font-size:5.92rem;
-	margin-top: -5%;
+	margin-top: -10%;
 	 text-shadow: 2px 2px 2px #212121;
 	 opacity:0;  /* make things invisible upon start */
     animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
@@ -75,7 +76,7 @@ p#a01 {
 	font-size: 8vw;
 		font-family: 'Cookie', cursive;
 		text-shadow: 2px 2px 2px #212121;
-		margin-top: 250px;
+		margin-top: 270px;
 		 opacity:0;  /* make things invisible upon start */
     animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
 
@@ -365,11 +366,12 @@ font-size: 1.2em;
 	.slider h3 {
 	
 	font-size:5.2rem;
+	margin-top: -7%;
 }
 
 p#a01 {
 	font-size: 5rem;
-		
+		margin-top: 78%;
 }
 
 p#fecha{
@@ -383,6 +385,20 @@ p#fecha{
 }
 
 
+}
+
+
+
+@media (max-width: 505px){
+	.slider h3 {
+ 
+    margin-top: -26%;
+}
+
+p#a01 {
+
+    margin-top: 100%;
+}
 }
 
 
@@ -406,13 +422,18 @@ p#fecha{
 
 @media (max-width: 440px){
 		.slider h3 {
-	
+	margin-top: -23%;
 	font-size:4.8rem;
 }
 	p#fecha{
 	font-size: 2rem;
 	margin-top: -25%;
 		
+}
+
+p#a01 {
+   
+    margin-top: 105%;
 }
 }
 
@@ -431,13 +452,13 @@ p#fecha{
 	}
 
 		.slider h3 {
-	
+	margin-top: -15%;
 	font-size:4rem;
 }
 
 p#a01 {
 	font-size: 4rem;
-		
+		    margin-top: 115%;
 }
 
 
@@ -478,9 +499,20 @@ p#a01 {
 @media (max-width: 330px){
 
 .slider h3 {
-	
+	margin-top: -12%;
 	font-size:3.2rem;
 }
+
+p#fecha{
+	   margin-top: -30%;;
+}
+
+p#a01 {
+	font-size: 4rem;
+		    margin-top: 125%;
+}
+
+
 }
 
 @media (max-width: 300px){
@@ -503,6 +535,7 @@ p#a01 {
 
 p#a01 {
 	font-size: 3rem;
+	margin-top: 145%;
 		
 }
 
@@ -520,12 +553,12 @@ p#a01 {
 
 p#a01 {
 	font-size: 3rem;
-	margin-top: 280px;
+	margin-top: 300px;
 		
 }
 	p#fecha{
 	font-size: 1.5rem;
-	margin-top: -15%;
+	margin-top: -25%;
 		
 }
 }
