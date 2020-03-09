@@ -129,13 +129,13 @@ opacity:0;  /* make things invisible upon start */
 }
 
 .slider {
-	height: auto !important;
+
 	position: none !important;
 }
 
 #content {
 position: relative;
-top : 95vh;
+top : 100vh;
 }
 
 .slider .indicators .indicator-item.active {
