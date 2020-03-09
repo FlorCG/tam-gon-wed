@@ -87,11 +87,16 @@ p#a01 {
 }
 
 .background00 #a00 {
+	display: table-cell;
+       width: 39%;
+       text-align: center;
+       margin: 0 auto;
+       padding: 0 5px;
 	font-family: 'Cookie', cursive;
   color: white;
 font-size:9vw;
   position: absolute;
-   top: 10%;
+   top: 20%;
   left: 47%;
   text-shadow: 2px 2px 2px #212121;
   transform: translate(-50%, -50%);
@@ -105,8 +110,13 @@ font-size:9vw;
 }
 
 .background00 #a01 {
-	 position: absolute;
-  top: 64%;
+	position: absolute;
+	display: table-cell;
+       width: 33%;
+       text-align: center;
+       margin: 0 auto;
+       padding: 0 5px;
+  top: 78%;
    line-height: 150%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -136,7 +146,7 @@ opacity:0;  /* make things invisible upon start */
 }
 
 #content {
-top: 100%;
+/*top: 100%;*/
   position: absolute;
 }
 
@@ -364,18 +374,19 @@ font-size: 1.2em;
 	}
 
 	#content {
-		    margin-top: 5px;
+		    /*margin-top: 5px;*/
 	}
 
 	.slider h3 {
 	
 	font-size:5.2rem;
-	margin-top: -7%;
+	margin-top: -15%;
 }
 
 p#a01 {
 	font-size: 5rem;
 		margin-top: 77%;
+
 }
 
 p#fecha{
@@ -396,7 +407,7 @@ p#fecha{
 @media (max-width: 505px){
 	.slider h3 {
  
-    margin-top: -26%;
+    margin-top: -27%;
 }
 
 p#a01 {
@@ -423,6 +434,14 @@ p#a01 {
 }
 }
 
+@media (max-width: 516px){
+	.background00 #a00{
+
+ width: 42%;
+		margin-top: -10%;
+}
+}
+
 
 @media (max-width: 440px){
 		.slider h3 {
@@ -443,12 +462,15 @@ p#a01 {
 
 @media (max-width: 400px){
 	.background00 #a00 {
-	font-size: 13vw;
-	width: 55%;
-	top: 4%;
+font-size: 10vw;
+    width: 47%;
+    top: 30%;
+
 	}
 	.background00 #a01 {
-		font-size: 10vw;
+		font-size: 8vw;
+		    margin-top: 4%;
+
 	}
 	.background00 #a02 {
 		font-size: 5vw;
@@ -503,8 +525,12 @@ p#a01 {
 @media (max-width: 330px){
 
 .slider h3 {
-	margin-top: -12%;
+	margin-top: -15%;
 	font-size:3.2rem;
+}
+.background00 #a01 {
+    font-size: 7vw;
+   
 }
 
 p#fecha{
@@ -524,6 +550,7 @@ p#a01 {
     width: 70%;
    
 }
+
 .botondatos {
 	font-size: 12px;
 }
@@ -565,6 +592,9 @@ p#a01 {
 	margin-top: -25%;
 		
 }
+
+
+
 }
 
 
@@ -791,3 +821,7 @@ iframe {
     opacity: 0;
   }
 }
+
+
+
+
