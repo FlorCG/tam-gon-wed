@@ -291,7 +291,7 @@ font-size: 1.2em;
 @media (max-width: 400px){
 	.background00 #a00 {
 	font-size: 13vw;
-	width: 67%;
+	width: 55%;
 	top: 4%;
 	}
 	.background00 #a01 {
@@ -463,4 +463,8 @@ iframe {
 	font-size: 1.2em;
 	margin: 0 auto;
 	width: 50%;
+}
+
+.modal-overlay {
+	display: inline !important;
 }
