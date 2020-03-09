@@ -112,7 +112,7 @@ font-size:9vw;
 .background00 #a01 {
 	position: absolute;
 	display: table-cell;
-       width: 33%;
+       width: 55%;
        text-align: center;
        margin: 0 auto;
        padding: 0 5px;
@@ -123,7 +123,7 @@ font-size:9vw;
 font-family: 'Cookie', cursive;
   color: white;
   text-shadow: 2px 2px 2px #212121;
-font-size:8vw;
+font-size:10vw;
 opacity:0;  /* make things invisible upon start */
     animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
 
@@ -184,7 +184,7 @@ opacity:0;  /* make things invisible upon start */
 .background00 #a02  {
 	font-family: 'Cookie', cursive;
   color: white;
-font-size:4vw;
+font-size:5vw;
   position: absolute;
    top: 80%;
   left: 50%;
@@ -462,18 +462,19 @@ p#a01 {
 
 @media (max-width: 400px){
 	.background00 #a00 {
-font-size: 10vw;
-    width: 47%;
+font-size: 15vw;
+    width: 80%;
     top: 30%;
 
 	}
 	.background00 #a01 {
-		font-size: 8vw;
+		font-size: 10vw;
+    width: 55%;
 		    margin-top: 4%;
 
 	}
 	.background00 #a02 {
-		font-size: 5vw;
+		font-size: 6vw;
 		top: 84%;
 	}
 
@@ -529,7 +530,7 @@ p#a01 {
 	font-size:3.2rem;
 }
 .background00 #a01 {
-    font-size: 7vw;
+    font-size: 9vw;
    
 }
 
