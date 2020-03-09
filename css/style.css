@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
 
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
 body {
 	background-image: url("../assets/bg0.jpg");
 	background-repeat: no-repeat;
@@ -23,6 +25,13 @@ font-size:9vw;
   left: 50%;
   text-shadow: 2px 2px 2px #212121;
   transform: translate(-50%, -50%);
+  opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s
 }
 
 .background00 #a01 {
@@ -35,15 +44,40 @@ font-family: 'Cookie', cursive;
   color: white;
   text-shadow: 2px 2px 2px #212121;
 font-size:8vw;
+opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s
 }
 
 .seccioncontador{
 	background-color: black;
 	height: 160px;
+
+}
+
+.conta {
+	  opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s
 }
 
 .rowdatos {
 	margin-bottom: 0px !important;
+	opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s
 }
 
 .textinvita span {
@@ -60,6 +94,13 @@ font-size:4vw;
   left: 50%;
   text-shadow: 2px 2px 2px #212121;
   transform: translate(-50%, -50%);
+  opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s
 }
 
 .contenedor {
@@ -140,6 +181,13 @@ p#lugar {
 	margin-top: 5%;
 	  display: flex;
   flex-wrap: wrap;
+  opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s
 }
 
 .contenedorregalo {
@@ -160,7 +208,13 @@ p#lugar {
     text-align: center;
     height: 200px;
     margin-bottom: 12%;
-   
+   opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s
 }
 
 .contenedorreg {
@@ -330,7 +384,7 @@ iframe {
 }
 
 #countdown {
-  color: #fff;
+	color: #fff;
   margin-top: 1.5em;
 }
 #countdown td {
@@ -346,6 +400,7 @@ iframe {
 #countdown table {
   table-layout: fixed;
   margin-bottom: 0;
+
 }
 #countdown table tr {
   border: none;
@@ -388,9 +443,20 @@ iframe {
 	text-align: center;
 	color: white;
 	margin-top: 5%;
-	
 	padding-top: 60px;
 	padding-bottom: 60px;
+
+}
+
+
+.canciones {
+	opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s
 }
 
 .textsong p{
