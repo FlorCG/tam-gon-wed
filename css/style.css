@@ -134,8 +134,7 @@ opacity:0;  /* make things invisible upon start */
 }
 
 #content {
-position: relative;
-top : 100vh;
+
 }
 
 .slider .indicators .indicator-item.active {
