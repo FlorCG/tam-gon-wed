@@ -17,7 +17,7 @@ body {
   color: white;
 font-size:9vw;
   position: absolute;
-   top: 5%;
+   top: 10%;
   left: 50%;
   text-shadow: 2px 2px 2px #212121;
   transform: translate(-50%, -50%);
@@ -37,7 +37,7 @@ font-size:8vw;
 
 .seccioncontador{
 	background-color: black;
-	height: 150px;
+	height: 160px;
 }
 
 .rowdatos {
@@ -57,6 +57,7 @@ font-size:4vw;
 
 .contenedor {
 	 position: relative;
+	 margin-bottom: -6px;
 }
 
 
@@ -219,6 +220,7 @@ font-size: 1.2em;
 	.background00 #a00 {
 	font-size: 13vw;
 	width: 67%;
+	top: 4%;
 	}
 	.background00 #a01 {
 		font-size: 10vw;
@@ -227,6 +229,22 @@ font-size: 1.2em;
 		font-size: 5vw;
 		top: 84%;
 	}
+
+	#countdown .tr-text {
+  font-size: 10px !important;
+}
+
+#countdown .numbers {
+
+  font-size: 20px !important;
+}
+
+.seccioncontador {
+	height: 145px;
+}
+
+
+
 }
 
 @media (max-width: 300px){
@@ -236,6 +254,19 @@ font-size: 1.2em;
 }
 .botondatos {
 	font-size: 12px;
+}
+
+.seccioncontador {
+	height: 115px;
+}
+
+#countdown .numbers {
+
+  font-size: 15px !important;
+}
+
+	#countdown .tr-text {
+  font-size: 8px !important;
 }
 }
 
@@ -248,5 +279,65 @@ iframe {
 	display: block;
     text-align: center;
     margin: 0 auto;
+    width: 95%;
     padding: 12px !important;
+}
+
+#modal2 {
+	width: 98% !important;
+}
+
+.imghidden img {
+	margin-top: 10% !important;
+}
+
+#countdown {
+  color: #fff;
+  margin-top: 1.5em;
+}
+#countdown td {
+  text-align: center;
+  padding: 10px 5px;
+}
+#countdown .tr-text {
+  font-size: 14px;
+}
+#countdown .tr-text td {
+  padding: 0;
+}
+#countdown table {
+  table-layout: fixed;
+  margin-bottom: 0;
+}
+#countdown table tr {
+  border: none;
+}
+#countdown .fix-width {
+  position: relative;
+  font-weight: 500;
+  font-size: 2em;
+}
+#countdown .circle {
+  width: 76%;
+  height: 0;
+  padding-bottom: 71%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+#countdown .numbers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 85%;
+}
+#countdown svg {
+  width: 85%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#countdown svg.filter-shadow {
+  filter: drop-shadow(0px 0px 1.5px rgba(255, 64, 129, 0.9));
 }
